@@ -1,0 +1,26 @@
+@import "assets/style/_variable.scss";
+
+.Wrapper {
+  height: 100%;
+  width: 100%;
+  padding: 2em;
+  display: flex;
+
+  .MainLabel {
+    color: $color-text-label;
+    font-size: 2.5rem;
+    text-align: right;
+  }
+
+  .Detalis {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .Label {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+  }
+}

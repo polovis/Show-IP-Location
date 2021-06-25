@@ -1,0 +1,83 @@
+@import "assets/style/_variable.scss";
+
+.MainWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  background: url("../../statics/images/turquoise-colored-pushpin-stucked-in-world-map.jpg")
+    center no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  .LeftPanel {
+    height: 100%;
+
+    .List {
+      flex: 15 1 auto;
+      padding: 1em 0 0 2em;
+    }
+  }
+
+  .PictureSource {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+  }
+
+  .Wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+
+  .RightPanel {
+    width: 100%;
+    height: 100%;
+
+    .UserContainer {
+      width: 100%;
+      display: flex;
+    }
+
+    .LastSearchContainer {
+      width: 100%;
+      display: flex;
+    }
+
+    .SearchContainer {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      background-color: $color-background-hightlight;
+    }
+  }
+}
+
+.MainLabel {
+  color: $color-text-label;
+  font-size: 2.5rem;
+  text-align: right;
+}
+
+.Detalis {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.Label {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+
+.Divider {
+  height: 2px;
+  background-color: $color-text-label;
+  width: 10rem;
+  margin: 1em 0;
+}

@@ -1,0 +1,12 @@
+@import "assets/style/_variable.scss";
+
+.Wrapper {
+  padding: 2em;
+  padding-left: 6em;
+  flex: 15 1 auto;
+}
+
+.MainLabel {
+  color: $color-text-label;
+  font-size: 2.5rem;
+}

@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Oswald;
+}
+
+code {
+  font-family: Oswald, source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

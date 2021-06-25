@@ -1,0 +1,27 @@
+@import "assets/style/_variable.scss";
+
+.Wrapper {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5em;
+
+  .Button {
+    background-color: transparent;
+    color: $color-text-active;
+    width: 100%;
+    height: 3em;
+    border-radius: 5px;
+    border: 0.2rem solid $color-text-active;
+    font-size: 1.5rem;
+
+    &:focus,
+    &:hover {
+      background-color: $color-text-label;
+      border-color: $color-text-label;
+      color: $color-text-active;
+    }
+  }
+}

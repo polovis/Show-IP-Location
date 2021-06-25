@@ -1,0 +1,39 @@
+@import "assets/style/_variable.scss";
+
+.Wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  .Form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .Input {
+    width: 40%;
+    height: 3em;
+    background-color: transparent;
+    caret-color: $color-text-label;
+    padding-left: 10px;
+    border-bottom: 0.1875em solid $color-text-active;
+    position: relative;
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    color: $color-text-active;
+  }
+
+  .Input:focus {
+    outline: none;
+  }
+
+  input::placeholder {
+    font-size: 1rem;
+  }
+
+  .Input:focus::placeholder {
+    color: transparent;
+  }
+}
